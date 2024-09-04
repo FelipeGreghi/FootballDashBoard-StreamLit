@@ -1,4 +1,6 @@
 import streamlit as st
-import pandas as pd
+import Controller.dataSetController as dataController
 
 st.title('Home')
+
+st.write(dataController.GetData())
